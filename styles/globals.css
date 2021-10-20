@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "Virgil";
+  src: url("/fonts/Virgil.woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cascadia";
+  src: url("/fonts/Cascadia.woff2");
+  font-display: swap;
+}
+
 html,
 body {
   padding: 0;
@@ -7,10 +19,22 @@ body {
 }
 
 a {
-  color: inherit;
+  color: #1864ab;
   text-decoration: none;
 }
 
 * {
   box-sizing: border-box;
+}
+
+.hand-drawn {
+  font-family: "Virgil", sans-serif;
+}
+
+.monospaced {
+  font-family: "Cascadia", monospace;
+}
+
+.helper {
+  color: #368888;
 }
